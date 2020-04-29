@@ -1,0 +1,443 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primeiro_Programa", "Seção_2_Introdução_a_CSharp_e_DotNET\Primeiro_Programa.csproj", "{79874ABC-951F-4982-BE3C-75AC25BB665B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operadores_Aritimeticos", "Secao_3_logicaProgramacao_CSharp\Operadores_Aritimeticos.csproj", "{FA167895-55B1-47F8-A302-52AE543EFEDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Secao_2_Introducao_a_CSharp_e_DotNET", "Secao_2_Introducao_a_CSharp_e_DotNET", "{9BFAB77C-D691-4DFE-BECB-A6247A989A98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Secao_3_logicaProgramacao_CSharp", "Secao_3_logicaProgramacao_CSharp", "{C9A0FA4F-2435-48EF-A073-7D33A2CABAED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operadores_Atribuicao", "Operadores_Atribuicao\Operadores_Atribuicao.csproj", "{EDD9654F-44E4-4752-9914-7A0102F73FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conversao_Implicita_Casting", "Conversao_Implicita_Casting\Conversao_Implicita_Casting.csproj", "{1AB535F3-C5DF-4ADC-A5A3-0BE0D33FFEF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Material de Apoio", "Material de Apoio", "{832FDFF7-C0B0-43AB-B0B1-9A7CEF673DBC}"
+	ProjectSection(SolutionItems) = preProject
+		Seção_2_Introdução_a_CSharp_e_DotNET\Material de Apoio\02-introducao-csharp-dotnet-para-anotacoes.pdf = Seção_2_Introdução_a_CSharp_e_DotNET\Material de Apoio\02-introducao-csharp-dotnet-para-anotacoes.pdf
+		Seção_2_Introdução_a_CSharp_e_DotNET\Material de Apoio\02-introducao-csharp-dotnet.pdf = Seção_2_Introdução_a_CSharp_e_DotNET\Material de Apoio\02-introducao-csharp-dotnet.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Material de Apoio", "Material de Apoio", "{4FFF2C7C-F8A3-4DC9-BB96-B54C0F70B798}"
+	ProjectSection(SolutionItems) = preProject
+		Secao_3_logicaProgramacao_CSharp\Material de Apoio\03-recapitulacao-de-logica-de-programacao-para-anotacoes.pdf = Secao_3_logicaProgramacao_CSharp\Material de Apoio\03-recapitulacao-de-logica-de-programacao-para-anotacoes.pdf
+		Secao_3_logicaProgramacao_CSharp\Material de Apoio\03-recapitulacao-de-logica-de-programacao.pdf = Secao_3_logicaProgramacao_CSharp\Material de Apoio\03-recapitulacao-de-logica-de-programacao.pdf
+		Secao_3_logicaProgramacao_CSharp\Material de Apoio\1.05.2-saida-de-dados-C.txt = Secao_3_logicaProgramacao_CSharp\Material de Apoio\1.05.2-saida-de-dados-C.txt
+		Secao_3_logicaProgramacao_CSharp\Material de Apoio\1.05.3-entrada-de-dados-C.txt = Secao_3_logicaProgramacao_CSharp\Material de Apoio\1.05.3-entrada-de-dados-C.txt
+		Secao_3_logicaProgramacao_CSharp\Material de Apoio\1.07.2-estrutura-condicional-C.txt = Secao_3_logicaProgramacao_CSharp\Material de Apoio\1.07.2-estrutura-condicional-C.txt
+		Secao_3_logicaProgramacao_CSharp\Material de Apoio\exercicios1-estrutura-sequencial.pdf = Secao_3_logicaProgramacao_CSharp\Material de Apoio\exercicios1-estrutura-sequencial.pdf
+		Secao_3_logicaProgramacao_CSharp\Material de Apoio\exercicios2-estrutura-condicional.pdf = Secao_3_logicaProgramacao_CSharp\Material de Apoio\exercicios2-estrutura-condicional.pdf
+		Secao_3_logicaProgramacao_CSharp\Material de Apoio\exercicios3-estrutura-while.pdf = Secao_3_logicaProgramacao_CSharp\Material de Apoio\exercicios3-estrutura-while.pdf
+		Secao_3_logicaProgramacao_CSharp\Material de Apoio\exercicios4-estrutura-for.pdf = Secao_3_logicaProgramacao_CSharp\Material de Apoio\exercicios4-estrutura-for.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entrada_Dados", "Entrada_Dados\Entrada_Dados.csproj", "{74D0AA45-8C98-4661-9FAA-87C04A927006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estrutura_Condicional_IfElse", "Estrutura_Condicional_IfElse\Estrutura_Condicional_IfElse.csproj", "{9ACEA143-72E6-470C-BB08-58469FA48557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funcoes_Sintaxe", "Funcoes_Sintaxe\Funcoes_Sintaxe.csproj", "{90FF33D0-15EA-4A5E-98C2-EE0EDD8759B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estrutura_Repeticao_While", "Estrutura_Repeticao_While\Estrutura_Repeticao_While.csproj", "{159705E4-AE93-49F8-AFD9-37D222116C45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_While", "Exercicio_While\Exercicio_While.csproj", "{A6CA3FE9-DFB1-43DA-B4C7-F92A97E05E5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estrutura_For", "Estrutura_For\Estrutura_For.csproj", "{EE6649FB-55FE-4BD2-8E11-EE1410C4397C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Execicio_For", "Execicio_For\Execicio_For.csproj", "{9FA9AD69-2CEE-4038-86B9-B30C5C80AE57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Secao_4_Classes_Atributos_Membros_MEstaticos", "Secao_4_Classes_Atributos_Membros_MEstaticos", "{31A722A4-D35B-481F-9DF2-8D92A40825BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Tres_Atributos", "Classes_Tres_Atributos\Classes_Tres_Atributos.csproj", "{E0450162-117B-40EF-B0C5-8A6DF3ABE891}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Material de Apoio", "Material de Apoio", "{F5C180FB-AADC-47C2-9CD8-EEFCD59B8805}"
+	ProjectSection(SolutionItems) = preProject
+		Secao_4_Classes_Atributos_Membros_MEstaticos\Material de Apoio\04-classes-atributos-metodos-static-para-anotacoes.pdf = Secao_4_Classes_Atributos_Membros_MEstaticos\Material de Apoio\04-classes-atributos-metodos-static-para-anotacoes.pdf
+		Secao_4_Classes_Atributos_Membros_MEstaticos\Material de Apoio\04-classes-atributos-metodos-static.pdf = Secao_4_Classes_Atributos_Membros_MEstaticos\Material de Apoio\04-classes-atributos-metodos-static.pdf
+		Secao_4_Classes_Atributos_Membros_MEstaticos\Material de Apoio\correcao-exercicios-fixacao.pdf = Secao_4_Classes_Atributos_Membros_MEstaticos\Material de Apoio\correcao-exercicios-fixacao.pdf
+		Secao_4_Classes_Atributos_Membros_MEstaticos\Material de Apoio\primeiros-exercicios.pdf = Secao_4_Classes_Atributos_Membros_MEstaticos\Material de Apoio\primeiros-exercicios.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_Classes", "Exercicio_Classes\Exercicio_Classes.csproj", "{4B05055D-B2A3-4278-BFAD-5404C52D6F23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Criando_Metodos", "Criando_Metodos\Criando_Metodos.csproj", "{8E0F9C46-5579-4FFD-808A-A902ACD5B15A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resolvendo_Problema_Estoque", "Resolvendo_Problema_Estoque\Resolvendo_Problema_Estoque.csproj", "{AC8370E0-832A-4A33-AAD6-270CB14DC3EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Membros_Estaticos", "Membros_Estaticos\Membros_Estaticos.csproj", "{81A72F26-203D-442C-9971-A18E63C0A46B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Secao_5_Construtores_This_SobreCarga_Encapsulamento", "Secao_5_Construtores_This_SobreCarga_Encapsulamento", "{F7F4D924-09BD-40EC-A699-D195436E1317}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Material de Apoio", "Material de Apoio", "{35D93B3C-A83B-4D86-9CB1-5FE4C06C66A5}"
+	ProjectSection(SolutionItems) = preProject
+		05-construtores-this-sobrecarga-encapsulamento-para-anotacoes.pdf = 05-construtores-this-sobrecarga-encapsulamento-para-anotacoes.pdf
+		05-construtores-this-sobrecarga-encapsulamento.pdf = 05-construtores-this-sobrecarga-encapsulamento.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Construtor", "Construtor\Construtor.csproj", "{D366EB90-AFA1-4515-935B-6782DD5003C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sobrecarga", "Sobrecarga\Sobrecarga.csproj", "{28160BAB-0DB4-4958-9A8B-5F09EF1AE6F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalavraThis", "This\PalavraThis.csproj", "{C298E332-A180-451E-819E-98B692308D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulamento", "Encapsulamento\Encapsulamento.csproj", "{09DE6110-DF7A-45A6-A7DC-0B0473C1A241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "Properties\Properties.csproj", "{5B4803EF-7039-43AB-BCFD-7440F2B324EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoProperties", "AutoProperties\AutoProperties.csproj", "{8AE2D3DD-BE03-4129-BE20-FC8944B3B2E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio", "Exercicio\Exercicio.csproj", "{8E19704A-D6B7-40CA-8E60-D1CD15749A8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Secao_6_Comportamento_Memorias_Arrays_Listas", "Secao_6_Comportamento_Memorias_Arrays_Listas", "{A3257755-03BF-46A1-A9F1-52A3EE7A234C}"
+	ProjectSection(SolutionItems) = preProject
+		Secao_6_Comportamento_Memorias_Arrays_Listas\06-memoria-arrays-listas-para-anotacoes.pdf = Secao_6_Comportamento_Memorias_Arrays_Listas\06-memoria-arrays-listas-para-anotacoes.pdf
+		Secao_6_Comportamento_Memorias_Arrays_Listas\06-memoria-arrays-listas.pdf = Secao_6_Comportamento_Memorias_Arrays_Listas\06-memoria-arrays-listas.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "Nullable\Nullable.csproj", "{F7C8168C-37B3-4BD6-8A42-797979370A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetores_II", "Vetores_II\Vetores_II.csproj", "{11722F5E-1796-41A7-85FD-9FB0A93DD030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios", "Exercicios\Exercicios.csproj", "{2E2E17B2-A31F-44C3-8484-3DCA32439D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modificador_Params", "Modificador Params\Modificador_Params.csproj", "{07D3C70F-A7EF-4372-918D-E7945E63F96C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modificador_Ref_Out", "Modificador_Ref_Out\Modificador_Ref_Out.csproj", "{27CBBB3F-80A9-4B6F-B57F-B8189A8BE339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laço_Foreach", "Laço_Foreach\Laço_Foreach.csproj", "{1DDA84E1-3F70-40E1-A4FA-A57CB4D4E61B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "Listas\Listas.csproj", "{A021B260-8C23-480F-B408-FDE281F7290D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matriz", "Matriz\Matriz.csproj", "{B63A7154-1A92-436F-90DC-2CA3D64FA8E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conjunto", "Conjunto\Conjunto.csproj", "{A5FFE372-97E9-44B7-8036-821A6A15783F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Secao_8_Git_GitHub", "Secao_8_Git_GitHub", "{6E8614B3-A4E8-47C5-BAAC-3CAABC84AA9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteGit_GitHub", "TesteGit_GitHub\TesteGit_GitHub.csproj", "{E4BCDFF0-7006-44DF-821F-D16BEE273F3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79874ABC-951F-4982-BE3C-75AC25BB665B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79874ABC-951F-4982-BE3C-75AC25BB665B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79874ABC-951F-4982-BE3C-75AC25BB665B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79874ABC-951F-4982-BE3C-75AC25BB665B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA167895-55B1-47F8-A302-52AE543EFEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA167895-55B1-47F8-A302-52AE543EFEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA167895-55B1-47F8-A302-52AE543EFEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA167895-55B1-47F8-A302-52AE543EFEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD9654F-44E4-4752-9914-7A0102F73FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD9654F-44E4-4752-9914-7A0102F73FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD9654F-44E4-4752-9914-7A0102F73FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD9654F-44E4-4752-9914-7A0102F73FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB535F3-C5DF-4ADC-A5A3-0BE0D33FFEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB535F3-C5DF-4ADC-A5A3-0BE0D33FFEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB535F3-C5DF-4ADC-A5A3-0BE0D33FFEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB535F3-C5DF-4ADC-A5A3-0BE0D33FFEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D0AA45-8C98-4661-9FAA-87C04A927006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D0AA45-8C98-4661-9FAA-87C04A927006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D0AA45-8C98-4661-9FAA-87C04A927006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D0AA45-8C98-4661-9FAA-87C04A927006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ACEA143-72E6-470C-BB08-58469FA48557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACEA143-72E6-470C-BB08-58469FA48557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACEA143-72E6-470C-BB08-58469FA48557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACEA143-72E6-470C-BB08-58469FA48557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90FF33D0-15EA-4A5E-98C2-EE0EDD8759B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90FF33D0-15EA-4A5E-98C2-EE0EDD8759B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90FF33D0-15EA-4A5E-98C2-EE0EDD8759B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90FF33D0-15EA-4A5E-98C2-EE0EDD8759B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159705E4-AE93-49F8-AFD9-37D222116C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159705E4-AE93-49F8-AFD9-37D222116C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159705E4-AE93-49F8-AFD9-37D222116C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159705E4-AE93-49F8-AFD9-37D222116C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CA3FE9-DFB1-43DA-B4C7-F92A97E05E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CA3FE9-DFB1-43DA-B4C7-F92A97E05E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CA3FE9-DFB1-43DA-B4C7-F92A97E05E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CA3FE9-DFB1-43DA-B4C7-F92A97E05E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6649FB-55FE-4BD2-8E11-EE1410C4397C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6649FB-55FE-4BD2-8E11-EE1410C4397C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6649FB-55FE-4BD2-8E11-EE1410C4397C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6649FB-55FE-4BD2-8E11-EE1410C4397C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA9AD69-2CEE-4038-86B9-B30C5C80AE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA9AD69-2CEE-4038-86B9-B30C5C80AE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA9AD69-2CEE-4038-86B9-B30C5C80AE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA9AD69-2CEE-4038-86B9-B30C5C80AE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0450162-117B-40EF-B0C5-8A6DF3ABE891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0450162-117B-40EF-B0C5-8A6DF3ABE891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0450162-117B-40EF-B0C5-8A6DF3ABE891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0450162-117B-40EF-B0C5-8A6DF3ABE891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B05055D-B2A3-4278-BFAD-5404C52D6F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B05055D-B2A3-4278-BFAD-5404C52D6F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B05055D-B2A3-4278-BFAD-5404C52D6F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B05055D-B2A3-4278-BFAD-5404C52D6F23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0F9C46-5579-4FFD-808A-A902ACD5B15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0F9C46-5579-4FFD-808A-A902ACD5B15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0F9C46-5579-4FFD-808A-A902ACD5B15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0F9C46-5579-4FFD-808A-A902ACD5B15A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8370E0-832A-4A33-AAD6-270CB14DC3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8370E0-832A-4A33-AAD6-270CB14DC3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8370E0-832A-4A33-AAD6-270CB14DC3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8370E0-832A-4A33-AAD6-270CB14DC3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A72F26-203D-442C-9971-A18E63C0A46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A72F26-203D-442C-9971-A18E63C0A46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A72F26-203D-442C-9971-A18E63C0A46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A72F26-203D-442C-9971-A18E63C0A46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D366EB90-AFA1-4515-935B-6782DD5003C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D366EB90-AFA1-4515-935B-6782DD5003C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D366EB90-AFA1-4515-935B-6782DD5003C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D366EB90-AFA1-4515-935B-6782DD5003C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28160BAB-0DB4-4958-9A8B-5F09EF1AE6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28160BAB-0DB4-4958-9A8B-5F09EF1AE6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28160BAB-0DB4-4958-9A8B-5F09EF1AE6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28160BAB-0DB4-4958-9A8B-5F09EF1AE6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C298E332-A180-451E-819E-98B692308D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C298E332-A180-451E-819E-98B692308D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C298E332-A180-451E-819E-98B692308D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C298E332-A180-451E-819E-98B692308D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09DE6110-DF7A-45A6-A7DC-0B0473C1A241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DE6110-DF7A-45A6-A7DC-0B0473C1A241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DE6110-DF7A-45A6-A7DC-0B0473C1A241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DE6110-DF7A-45A6-A7DC-0B0473C1A241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4803EF-7039-43AB-BCFD-7440F2B324EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4803EF-7039-43AB-BCFD-7440F2B324EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4803EF-7039-43AB-BCFD-7440F2B324EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4803EF-7039-43AB-BCFD-7440F2B324EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE2D3DD-BE03-4129-BE20-FC8944B3B2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE2D3DD-BE03-4129-BE20-FC8944B3B2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE2D3DD-BE03-4129-BE20-FC8944B3B2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE2D3DD-BE03-4129-BE20-FC8944B3B2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E19704A-D6B7-40CA-8E60-D1CD15749A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E19704A-D6B7-40CA-8E60-D1CD15749A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E19704A-D6B7-40CA-8E60-D1CD15749A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E19704A-D6B7-40CA-8E60-D1CD15749A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C8168C-37B3-4BD6-8A42-797979370A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C8168C-37B3-4BD6-8A42-797979370A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C8168C-37B3-4BD6-8A42-797979370A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C8168C-37B3-4BD6-8A42-797979370A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11722F5E-1796-41A7-85FD-9FB0A93DD030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11722F5E-1796-41A7-85FD-9FB0A93DD030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11722F5E-1796-41A7-85FD-9FB0A93DD030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11722F5E-1796-41A7-85FD-9FB0A93DD030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2E17B2-A31F-44C3-8484-3DCA32439D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2E17B2-A31F-44C3-8484-3DCA32439D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2E17B2-A31F-44C3-8484-3DCA32439D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2E17B2-A31F-44C3-8484-3DCA32439D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D3C70F-A7EF-4372-918D-E7945E63F96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D3C70F-A7EF-4372-918D-E7945E63F96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D3C70F-A7EF-4372-918D-E7945E63F96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D3C70F-A7EF-4372-918D-E7945E63F96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27CBBB3F-80A9-4B6F-B57F-B8189A8BE339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CBBB3F-80A9-4B6F-B57F-B8189A8BE339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CBBB3F-80A9-4B6F-B57F-B8189A8BE339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CBBB3F-80A9-4B6F-B57F-B8189A8BE339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DDA84E1-3F70-40E1-A4FA-A57CB4D4E61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DDA84E1-3F70-40E1-A4FA-A57CB4D4E61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DDA84E1-3F70-40E1-A4FA-A57CB4D4E61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DDA84E1-3F70-40E1-A4FA-A57CB4D4E61B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A021B260-8C23-480F-B408-FDE281F7290D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A021B260-8C23-480F-B408-FDE281F7290D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A021B260-8C23-480F-B408-FDE281F7290D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A021B260-8C23-480F-B408-FDE281F7290D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63A7154-1A92-436F-90DC-2CA3D64FA8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63A7154-1A92-436F-90DC-2CA3D64FA8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63A7154-1A92-436F-90DC-2CA3D64FA8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63A7154-1A92-436F-90DC-2CA3D64FA8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5FFE372-97E9-44B7-8036-821A6A15783F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FFE372-97E9-44B7-8036-821A6A15783F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FFE372-97E9-44B7-8036-821A6A15783F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FFE372-97E9-44B7-8036-821A6A15783F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4BCDFF0-7006-44DF-821F-D16BEE273F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BCDFF0-7006-44DF-821F-D16BEE273F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BCDFF0-7006-44DF-821F-D16BEE273F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BCDFF0-7006-44DF-821F-D16BEE273F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79874ABC-951F-4982-BE3C-75AC25BB665B} = {9BFAB77C-D691-4DFE-BECB-A6247A989A98}
+		{FA167895-55B1-47F8-A302-52AE543EFEDD} = {C9A0FA4F-2435-48EF-A073-7D33A2CABAED}
+		{EDD9654F-44E4-4752-9914-7A0102F73FD8} = {C9A0FA4F-2435-48EF-A073-7D33A2CABAED}
+		{1AB535F3-C5DF-4ADC-A5A3-0BE0D33FFEF4} = {C9A0FA4F-2435-48EF-A073-7D33A2CABAED}
+		{832FDFF7-C0B0-43AB-B0B1-9A7CEF673DBC} = {9BFAB77C-D691-4DFE-BECB-A6247A989A98}
+		{4FFF2C7C-F8A3-4DC9-BB96-B54C0F70B798} = {C9A0FA4F-2435-48EF-A073-7D33A2CABAED}
+		{74D0AA45-8C98-4661-9FAA-87C04A927006} = {C9A0FA4F-2435-48EF-A073-7D33A2CABAED}
+		{9ACEA143-72E6-470C-BB08-58469FA48557} = {C9A0FA4F-2435-48EF-A073-7D33A2CABAED}
+		{90FF33D0-15EA-4A5E-98C2-EE0EDD8759B2} = {C9A0FA4F-2435-48EF-A073-7D33A2CABAED}
+		{159705E4-AE93-49F8-AFD9-37D222116C45} = {C9A0FA4F-2435-48EF-A073-7D33A2CABAED}
+		{A6CA3FE9-DFB1-43DA-B4C7-F92A97E05E5B} = {C9A0FA4F-2435-48EF-A073-7D33A2CABAED}
+		{EE6649FB-55FE-4BD2-8E11-EE1410C4397C} = {C9A0FA4F-2435-48EF-A073-7D33A2CABAED}
+		{9FA9AD69-2CEE-4038-86B9-B30C5C80AE57} = {C9A0FA4F-2435-48EF-A073-7D33A2CABAED}
+		{E0450162-117B-40EF-B0C5-8A6DF3ABE891} = {31A722A4-D35B-481F-9DF2-8D92A40825BF}
+		{F5C180FB-AADC-47C2-9CD8-EEFCD59B8805} = {31A722A4-D35B-481F-9DF2-8D92A40825BF}
+		{4B05055D-B2A3-4278-BFAD-5404C52D6F23} = {31A722A4-D35B-481F-9DF2-8D92A40825BF}
+		{8E0F9C46-5579-4FFD-808A-A902ACD5B15A} = {31A722A4-D35B-481F-9DF2-8D92A40825BF}
+		{AC8370E0-832A-4A33-AAD6-270CB14DC3EC} = {31A722A4-D35B-481F-9DF2-8D92A40825BF}
+		{81A72F26-203D-442C-9971-A18E63C0A46B} = {31A722A4-D35B-481F-9DF2-8D92A40825BF}
+		{35D93B3C-A83B-4D86-9CB1-5FE4C06C66A5} = {F7F4D924-09BD-40EC-A699-D195436E1317}
+		{D366EB90-AFA1-4515-935B-6782DD5003C9} = {F7F4D924-09BD-40EC-A699-D195436E1317}
+		{28160BAB-0DB4-4958-9A8B-5F09EF1AE6F5} = {F7F4D924-09BD-40EC-A699-D195436E1317}
+		{C298E332-A180-451E-819E-98B692308D0E} = {F7F4D924-09BD-40EC-A699-D195436E1317}
+		{09DE6110-DF7A-45A6-A7DC-0B0473C1A241} = {F7F4D924-09BD-40EC-A699-D195436E1317}
+		{5B4803EF-7039-43AB-BCFD-7440F2B324EF} = {F7F4D924-09BD-40EC-A699-D195436E1317}
+		{8AE2D3DD-BE03-4129-BE20-FC8944B3B2E8} = {F7F4D924-09BD-40EC-A699-D195436E1317}
+		{8E19704A-D6B7-40CA-8E60-D1CD15749A8D} = {F7F4D924-09BD-40EC-A699-D195436E1317}
+		{F7C8168C-37B3-4BD6-8A42-797979370A4C} = {A3257755-03BF-46A1-A9F1-52A3EE7A234C}
+		{11722F5E-1796-41A7-85FD-9FB0A93DD030} = {A3257755-03BF-46A1-A9F1-52A3EE7A234C}
+		{2E2E17B2-A31F-44C3-8484-3DCA32439D0E} = {A3257755-03BF-46A1-A9F1-52A3EE7A234C}
+		{07D3C70F-A7EF-4372-918D-E7945E63F96C} = {A3257755-03BF-46A1-A9F1-52A3EE7A234C}
+		{27CBBB3F-80A9-4B6F-B57F-B8189A8BE339} = {A3257755-03BF-46A1-A9F1-52A3EE7A234C}
+		{1DDA84E1-3F70-40E1-A4FA-A57CB4D4E61B} = {A3257755-03BF-46A1-A9F1-52A3EE7A234C}
+		{A021B260-8C23-480F-B408-FDE281F7290D} = {A3257755-03BF-46A1-A9F1-52A3EE7A234C}
+		{B63A7154-1A92-436F-90DC-2CA3D64FA8E6} = {A3257755-03BF-46A1-A9F1-52A3EE7A234C}
+		{A5FFE372-97E9-44B7-8036-821A6A15783F} = {A3257755-03BF-46A1-A9F1-52A3EE7A234C}
+		{E4BCDFF0-7006-44DF-821F-D16BEE273F3A} = {6E8614B3-A4E8-47C5-BAAC-3CAABC84AA9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C8B34C4-A26E-437A-9E54-F7F1B798E4B8}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 34
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://estudopessoal.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Operadores_Atribuicao\\Operadores_Atribuicao.csproj
+		SccProjectTopLevelParentUniqueName1 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName1 = Operadores_Atribuicao
+		SccLocalPath1 = Operadores_Atribuicao
+		SccProjectUniqueName2 = Conversao_Implicita_Casting\\Conversao_Implicita_Casting.csproj
+		SccProjectTopLevelParentUniqueName2 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName2 = Conversao_Implicita_Casting
+		SccLocalPath2 = Conversao_Implicita_Casting
+		SccProjectUniqueName3 = Entrada_Dados\\Entrada_Dados.csproj
+		SccProjectTopLevelParentUniqueName3 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName3 = Entrada_Dados
+		SccLocalPath3 = Entrada_Dados
+		SccProjectUniqueName4 = Estrutura_Condicional_IfElse\\Estrutura_Condicional_IfElse.csproj
+		SccProjectTopLevelParentUniqueName4 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName4 = Estrutura_Condicional_IfElse
+		SccLocalPath4 = Estrutura_Condicional_IfElse
+		SccProjectUniqueName5 = Funcoes_Sintaxe\\Funcoes_Sintaxe.csproj
+		SccProjectTopLevelParentUniqueName5 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName5 = Funcoes_Sintaxe
+		SccLocalPath5 = Funcoes_Sintaxe
+		SccProjectUniqueName6 = Estrutura_Repeticao_While\\Estrutura_Repeticao_While.csproj
+		SccProjectTopLevelParentUniqueName6 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName6 = Estrutura_Repeticao_While
+		SccLocalPath6 = Estrutura_Repeticao_While
+		SccProjectUniqueName7 = Exercicio_While\\Exercicio_While.csproj
+		SccProjectTopLevelParentUniqueName7 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName7 = Exercicio_While
+		SccLocalPath7 = Exercicio_While
+		SccProjectUniqueName8 = Estrutura_For\\Estrutura_For.csproj
+		SccProjectTopLevelParentUniqueName8 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName8 = Estrutura_For
+		SccLocalPath8 = Estrutura_For
+		SccProjectUniqueName9 = Execicio_For\\Execicio_For.csproj
+		SccProjectTopLevelParentUniqueName9 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName9 = Execicio_For
+		SccLocalPath9 = Execicio_For
+		SccProjectUniqueName10 = Criando_Metodos\\Criando_Metodos.csproj
+		SccProjectTopLevelParentUniqueName10 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName10 = Criando_Metodos
+		SccLocalPath10 = Criando_Metodos
+		SccProjectUniqueName11 = Resolvendo_Problema_Estoque\\Resolvendo_Problema_Estoque.csproj
+		SccProjectTopLevelParentUniqueName11 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName11 = Resolvendo_Problema_Estoque
+		SccLocalPath11 = Resolvendo_Problema_Estoque
+		SccProjectUniqueName12 = Membros_Estaticos\\Membros_Estaticos.csproj
+		SccProjectTopLevelParentUniqueName12 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName12 = Membros_Estaticos
+		SccLocalPath12 = Membros_Estaticos
+		SccProjectUniqueName13 = Seção_2_Introdução_a_CSharp_e_DotNET\\Primeiro_Programa.csproj
+		SccProjectTopLevelParentUniqueName13 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName13 = Seção_2_Introdução_a_CSharp_e_DotNET
+		SccLocalPath13 = Seção_2_Introdução_a_CSharp_e_DotNET
+		SccProjectUniqueName14 = Secao_3_logicaProgramacao_CSharp\\Operadores_Aritimeticos.csproj
+		SccProjectTopLevelParentUniqueName14 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName14 = Secao_3_logicaProgramacao_CSharp
+		SccLocalPath14 = Secao_3_logicaProgramacao_CSharp
+		SccProjectUniqueName15 = Classes_Tres_Atributos\\Classes_Tres_Atributos.csproj
+		SccProjectTopLevelParentUniqueName15 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName15 = Classes_Tres_Atributos
+		SccLocalPath15 = Classes_Tres_Atributos
+		SccProjectUniqueName16 = Exercicio_Classes\\Exercicio_Classes.csproj
+		SccProjectTopLevelParentUniqueName16 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName16 = Exercicio_Classes
+		SccLocalPath16 = Exercicio_Classes
+		SccProjectUniqueName17 = Construtor\\Construtor.csproj
+		SccProjectTopLevelParentUniqueName17 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName17 = Construtor
+		SccLocalPath17 = Construtor
+		SccProjectUniqueName18 = Sobrecarga\\Sobrecarga.csproj
+		SccProjectTopLevelParentUniqueName18 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName18 = Sobrecarga
+		SccLocalPath18 = Sobrecarga
+		SccProjectUniqueName19 = This\\PalavraThis.csproj
+		SccProjectTopLevelParentUniqueName19 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName19 = This
+		SccLocalPath19 = This
+		SccProjectUniqueName20 = Encapsulamento\\Encapsulamento.csproj
+		SccProjectTopLevelParentUniqueName20 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName20 = Encapsulamento
+		SccLocalPath20 = Encapsulamento
+		SccProjectUniqueName21 = Properties\\Properties.csproj
+		SccProjectTopLevelParentUniqueName21 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName21 = Properties
+		SccLocalPath21 = Properties
+		SccProjectUniqueName22 = AutoProperties\\AutoProperties.csproj
+		SccProjectTopLevelParentUniqueName22 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName22 = AutoProperties
+		SccLocalPath22 = AutoProperties
+		SccProjectUniqueName23 = Exercicio\\Exercicio.csproj
+		SccProjectTopLevelParentUniqueName23 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName23 = Exercicio
+		SccLocalPath23 = Exercicio
+		SccProjectUniqueName24 = Nullable\\Nullable.csproj
+		SccProjectTopLevelParentUniqueName24 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName24 = Nullable
+		SccLocalPath24 = Nullable
+		SccProjectUniqueName25 = Vetores_II\\Vetores_II.csproj
+		SccProjectTopLevelParentUniqueName25 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName25 = Vetores_II
+		SccLocalPath25 = Vetores_II
+		SccProjectUniqueName26 = Exercicios\\Exercicios.csproj
+		SccProjectTopLevelParentUniqueName26 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName26 = Exercicios
+		SccLocalPath26 = Exercicios
+		SccProjectUniqueName27 = Modificador_Ref_Out\\Modificador_Ref_Out.csproj
+		SccProjectTopLevelParentUniqueName27 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName27 = Modificador_Ref_Out
+		SccLocalPath27 = Modificador_Ref_Out
+		SccProjectUniqueName28 = Modificador\u0020Params\\Modificador_Params.csproj
+		SccProjectTopLevelParentUniqueName28 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName28 = Modificador\u0020Params
+		SccLocalPath28 = Modificador\u0020Params
+		SccProjectUniqueName29 = Laço_Foreach\\Laço_Foreach.csproj
+		SccProjectTopLevelParentUniqueName29 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName29 = Laço_Foreach
+		SccLocalPath29 = Laço_Foreach
+		SccProjectUniqueName30 = Listas\\Listas.csproj
+		SccProjectTopLevelParentUniqueName30 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName30 = Listas
+		SccLocalPath30 = Listas
+		SccProjectUniqueName31 = Matriz\\Matriz.csproj
+		SccProjectTopLevelParentUniqueName31 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName31 = Matriz
+		SccLocalPath31 = Matriz
+		SccProjectUniqueName32 = Conjunto\\Conjunto.csproj
+		SccProjectTopLevelParentUniqueName32 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName32 = Conjunto
+		SccLocalPath32 = Conjunto
+		SccProjectUniqueName33 = TesteGit_GitHub\\TesteGit_GitHub.csproj
+		SccProjectTopLevelParentUniqueName33 = Udemy\u0020CSharp_Completo.sln
+		SccProjectName33 = TesteGit_GitHub
+		SccLocalPath33 = TesteGit_GitHub
+	EndGlobalSection
+EndGlobal
